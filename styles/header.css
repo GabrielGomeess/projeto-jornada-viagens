@@ -1,6 +1,9 @@
 header{
-    width: 100vw;
-    height: 138px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 48px;
     background-color: var(--background-tertiary-color);
 }
 
@@ -8,5 +11,8 @@ a.logo{
     display: inline-block;
     width: 68px;
     height: 64px;
-    margin: 37px 0 0 48px;
+}
+
+nav{
+    display: none;
 }
