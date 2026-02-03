@@ -8,6 +8,7 @@
   flex-flow: column nowrap;
   align-items: center;
   gap: 24px;
+  margin-bottom: 88px;
 }
 
 .categories-cards .card-link {
