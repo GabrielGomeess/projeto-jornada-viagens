@@ -57,6 +57,17 @@ section.hero {
   margin: 0 auto 32px;
 }
 
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 div.section-title > h2 {
   margin: 0;
   font-size: 28px;
@@ -96,6 +107,11 @@ div.section-title > hr {
   div.section-title > h2 {
     font-size: 32px;
   }
+
+  .content-title {
+    font-size: 32px;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -104,7 +120,6 @@ div.section-title > hr {
   }
 
   .section-title {
-    width: 100%;
     margin-bottom: 64px;
   }
 

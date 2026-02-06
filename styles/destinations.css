@@ -23,14 +23,11 @@ div.destinations-items header {
 }
 
 article.item > header > h4 {
-  font-size: 28px;
   margin: 24px 0;
 }
 
 article.item > p {
-  font-size: 20px;
   margin: 24px 0;
-  line-height: 32px;
   text-align: left;
 }
 
@@ -56,10 +53,6 @@ article.item > a.button {
     margin: 40px auto 0;
   }
 
-  article.item > header > h4 {
-    font-size: 32px;
-  }
-
   article.item > a.button {
     width: 280px;
     margin: 24px 0 40px 0;
@@ -79,10 +72,6 @@ article.item > a.button {
     width: 448px;
     height: 452px;
     margin: 0;
-  }
-
-  article.item > header > h4 {
-    font-size: 32px;
   }
 
   article.item > p {
