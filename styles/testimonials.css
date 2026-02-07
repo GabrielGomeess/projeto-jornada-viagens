@@ -34,19 +34,22 @@
   margin: 0 0 8px;
 }
 
-.testimonial-container
-  > article
-  > footer
-  > .profile-content
-  > .rating
-  > span.star {
+.testimonial-container .profile-content > .rating > span.star {
   font-size: 32px;
   color: var(--primary-color);
   line-height: 32px;
 }
 
+@media screen and (min-width: 1024px) {
+  .testimonial-container {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .testimonial-container {
     flex-flow: row;
+    width: 1200px;
   }
 }
