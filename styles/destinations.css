@@ -1,8 +1,3 @@
-section.destinations > .section-title {
-  width: 282px;
-  margin: 0 auto;
-}
-
 div.destinations-items header {
   position: static;
   display: block;
@@ -28,14 +23,11 @@ div.destinations-items header {
 }
 
 article.item > header > h4 {
-  font-size: 28px;
-  margin: 30px;
+  margin: 24px 0;
 }
 
 article.item > p {
-  font-size: 20px;
-  margin: 30px;
-  line-height: 32px;
+  margin: 24px 0;
   text-align: left;
 }
 
@@ -47,11 +39,6 @@ article.item > a.button {
 }
 
 @media screen and (min-width: 768px) {
-  section.destinations > .section-title {
-    width: 366px;
-    margin: 0 auto;
-  }
-
   .img-item-tokyo {
     width: 648px;
     height: 452px;
@@ -66,18 +53,9 @@ article.item > a.button {
     margin: 40px auto 0;
   }
 
-  article.item > header > h4 {
-    font-size: 32px;
-    margin: 24px 60px;
-  }
-
-  article.item > p {
-    margin: 24px 60px;
-  }
-
   article.item > a.button {
     width: 280px;
-    margin-left: 60px;
+    margin: 24px 0 40px 0;
   }
 }
 
@@ -96,11 +74,6 @@ article.item > a.button {
     margin: 0;
   }
 
-  article.item > header > h4 {
-    font-size: 32px;
-    margin: 24px 0;
-  }
-
   article.item > p {
     margin: 24px 0;
     width: 448px;
@@ -112,10 +85,6 @@ article.item > a.button {
 }
 
 @media screen and (min-width: 1440px) {
-  section.destinations > .section-title {
-    margin: 0 auto 84px;
-  }
-
   .img-item-tokyo,
   .img-item-osaka {
     width: 588px;
