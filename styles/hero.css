@@ -9,7 +9,7 @@ div.hero-img {
   background-size: cover;
 }
 
-section > h2 {
+section > h1 {
   padding: 88px 24px;
   margin: 0;
   text-align: center;
@@ -30,7 +30,7 @@ div.hero-footer-img {
     height: 620px;
   }
 
-  section > h2 {
+  section > h1 {
     padding: 88px 60px;
     font-size: 32px;
   }
@@ -47,7 +47,7 @@ div.hero-footer-img {
     background-size: cover;
   }
 
-  section > h2 {
+  section > h1 {
     padding: 0 120px;
     margin: 104px 0;
   }
@@ -60,7 +60,7 @@ div.hero-footer-img {
 }
 
 @media screen and (min-width: 1920px) {
-  section > h2 {
+  section > h1 {
     padding: 0 160px;
   }
 }
