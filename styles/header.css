@@ -53,6 +53,10 @@ nav {
   font-size: 24px;
 }
 
+.list-links > li > a.active {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
   div.navigation-menu {
     width: 467px;
