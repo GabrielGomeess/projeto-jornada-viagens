@@ -54,6 +54,11 @@ div.hero-footer-img {
   background-size: cover;
 }
 
+.travel-packages .hero-footer-img {
+  background: url(../images/package-hero-footer-mobile.png) no-repeat center;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   div.hero-img {
     background: url(../images/hero-tablet.jpg) no-repeat;
@@ -84,6 +89,13 @@ div.hero-footer-img {
   div.hero-footer-img {
     background: url(../images/hero-footer-tablet.png) no-repeat;
     background-size: cover;
+    height: 620px;
+  }
+
+  .travel-packages .hero-footer-img {
+    background: url(../images/package-hero-footer-tablet.png) no-repeat center;
+    background-size: cover;
+    height: 620px;
   }
 }
 
@@ -107,7 +119,11 @@ div.hero-footer-img {
   div.hero-footer-img {
     background: url(../images/hero-footer-desktop.png) no-repeat center;
     background-size: cover;
-    height: 600px;
+  }
+
+  .travel-packages .hero-footer-img {
+    background: url(../images/package-hero-footer-desktop.png) no-repeat center;
+    background-size: cover;
   }
 }
 
