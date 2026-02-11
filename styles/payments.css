@@ -47,12 +47,14 @@ div.image-people {
 }
 
 .travel-packages .image-bag {
-  background: url(../images/package1-japao-mobile.png) no-repeat center;
+  background: url(../images/pacotes-viagem/package1-japao-mobile.png) no-repeat
+    center;
   background-size: cover;
 }
 
 .travel-packages .image-passport {
-  background: url(../images/package2-japao-mobile.png) no-repeat center;
+  background: url(../images//pacotes-viagem/package2-japao-mobile.png) no-repeat
+    center;
   background-size: cover;
 }
 
@@ -60,7 +62,8 @@ div.image-people {
   grid-column-start: 1;
   grid-column-end: 3;
 
-  background: url(../images/package3-japao-mobile.png) no-repeat bottom center;
+  background: url(../images/pacotes-viagem/package3-japao-mobile.png) no-repeat
+    bottom center;
   background-size: cover;
 }
 
@@ -85,12 +88,14 @@ div.image-people {
   }
 
   .travel-packages .image-bag {
-    background: url(../images/package1-japao-tablet.png) no-repeat center;
+    background: url(../images/pacotes-viagem/package1-japao-tablet.png)
+      no-repeat center;
     background-size: cover;
   }
 
   .travel-packages .image-passport {
-    background: url(../images/package2-japao-tablet.png) no-repeat center;
+    background: url(../images/pacotes-viagem/package2-japao-tablet.png)
+      no-repeat center;
     background-size: cover;
   }
 
@@ -98,7 +103,8 @@ div.image-people {
     grid-column-start: 1;
     grid-column-end: 3;
 
-    background: url(../images/package3-japao-tablet.png) no-repeat bottom center;
+    background: url(../images/pacotes-viagem/package3-japao-tablet.png)
+      no-repeat bottom center;
     background-size: cover;
   }
 }
