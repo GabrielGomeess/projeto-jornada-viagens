@@ -53,7 +53,7 @@ nav {
   font-size: 24px;
 }
 
-.list-links > li > a.active, a.active-contact{
+.list-links > li > a.active{
   text-decoration: underline;
 }
 
