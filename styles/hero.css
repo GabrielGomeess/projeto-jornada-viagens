@@ -73,6 +73,11 @@ div.hero-footer-img {
   margin-bottom: 88px;
 }
 
+.contact .hero-footer-img {
+  background: url(../images//contato/contact-footer-mobile.png) no-repeat center;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   div.hero-img {
     background: url(../images/hero-tablet.jpg) no-repeat;
@@ -121,6 +126,12 @@ div.hero-footer-img {
     background: url(../images/contato/contact-hero-tablet.png) no-repeat center;
     background-size: cover;
   }
+
+  .contact .hero-footer-img {
+    background: url(../images//contato/contact-footer-tablet.png) no-repeat
+      center;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -160,6 +171,12 @@ div.hero-footer-img {
     background: url(../images/contato/contact-hero-desktop.png) no-repeat center;
     background-size: cover;
     padding: 210px 0 156px 120px;
+  }
+
+  .contact .hero-footer-img {
+    background: url(../images//contato/contact-footer-desktop.png) no-repeat
+      center;
+    background-size: cover;
   }
 }
 
