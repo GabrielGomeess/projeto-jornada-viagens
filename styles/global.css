@@ -49,7 +49,8 @@ section {
   margin: 0 auto 88px;
 }
 
-section.hero , section.hero-footer{
+section.hero,
+section.hero-footer {
   width: 100%;
   margin: 0;
 }
@@ -70,7 +71,6 @@ section.hero , section.hero-footer{
   line-height: 32px;
 }
 
-
 div.section-title > h2 {
   margin: 0;
   font-size: 28px;
@@ -78,7 +78,7 @@ div.section-title > h2 {
   text-align: center;
 }
 
-div.section-title, .form-container  hr {
+div.section-title hr {
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
@@ -86,7 +86,8 @@ div.section-title, .form-container  hr {
   margin: 16px auto 32px;
 }
 
-a.button, button {
+a.button,
+button {
   display: inline-block;
   width: 280px;
   height: 64px;
@@ -107,7 +108,7 @@ a.button, button {
   .section-title {
     width: 100%;
   }
-  
+
   div.section-title > h2 {
     font-size: 32px;
   }
@@ -115,7 +116,6 @@ a.button, button {
   .content-title {
     font-size: 32px;
   }
-
 }
 
 @media screen and (min-width: 1024px) {

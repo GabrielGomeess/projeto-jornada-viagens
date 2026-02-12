@@ -93,25 +93,28 @@
         <form action="#" method="post">
           <input type="text" id="name" name="userName" placeholder="Seu nome" />
 
-          <input
-            type="tel"
-            id="phoneNumber"
-            name="userPhone"
-            placeholder="Telefone"
-          />
+          <div class="dados">
+            <input
+              type="tel"
+              id="phoneNumber"
+              name="userPhone"
+              placeholder="Telefone"
+            />
+            <input
+              type="email"
+              id="email"
+              name="userEmail"
+              placeholder="Email"
+            />
+          </div>
 
-          <input type="text" id="name" name="userName" placeholder="Email" />
-
-          <input type="text" id="name" name="userName" placeholder="Tópico" />
+          <input type="text" id="topic" name="userTopic" placeholder="Tópico" />
 
           <label for="comment">Assunto</label>
           <textarea id="comment" name="userComment"></textarea>
 
           <button type="submit">Enviar!</button>
         </form>
-
-        
-    
       </section>
     </main>
   </body>
