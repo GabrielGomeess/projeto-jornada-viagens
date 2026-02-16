@@ -27,6 +27,16 @@ div.img-item-bridge {
   margin: 32px 0 8px 0;
 }
 
+.blog .hiroshima {
+  background: url(../images/blog/hiroshima-mobile.png) no-repeat center;
+  background-size: cover;
+}
+
+.blog .kyoto {
+  background: url(../images/blog/kyoto-mobile.png) no-repeat center;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   div.store-tokyo {
     display: flex;
@@ -43,11 +53,26 @@ div.img-item-bridge {
     height: 300px;
     margin: 32px 0 8px 0;
   }
+
+  /* Estilos para pagina Blog */
+
+  .blog .hiroshima {
+    background: url(../images/blog/hiroshima-tablet.png) no-repeat center;
+    background-size: cover;
+  }
+
+  .blog .kyoto {
+    background: url(../images/blog/kyoto-tablet.png) no-repeat center;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   section.tokyo {
     width: 930px;
+  }
+  article.hiroshima {
+    margin: 40px 0;
   }
 
   div.store-tokyo {
@@ -58,6 +83,29 @@ div.img-item-bridge {
     background: url(../images/blog/blog-store-desktop.png) no-repeat center;
     background-size: cover;
     width: 588px;
+  }
+
+  div.recommendations-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .blog .img-item-osaka {
+    width: 930px;
+  }
+
+  .blog .hiroshima {
+    background: url(../images/blog/hiroshima-tablet.png) no-repeat center;
+    background-size: cover;
+    width: 930px;
+  }
+
+  .blog .kyoto {
+    background: url(../images/blog/kyoto-tablet.png) no-repeat center;
+    background-size: cover;
+    width: 930px;
   }
 }
 
@@ -75,5 +123,31 @@ div.img-item-bridge {
     background-size: cover;
     height: 300px;
     margin: 32px 0 8px 0;
+  }
+  article.blog p {
+    width: 384px;
+  }
+
+  div.recommendations-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .blog .img-item-osaka {
+    width: 384px;
+  }
+
+  .blog .hiroshima {
+    background: url(../images/blog/hiroshima-desktop.png) no-repeat center;
+    background-size: cover;
+    width: 384px;
+  }
+
+  .blog .kyoto {
+    background: url(../images/blog/kyoto-desktop.png) no-repeat center;
+    background-size: cover;
+    width: 384px;
   }
 }
