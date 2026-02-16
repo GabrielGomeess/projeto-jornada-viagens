@@ -78,6 +78,16 @@ div.hero-footer-img {
   background-size: cover;
 }
 
+/* Estilos para página de blog */
+
+.blog .hero-img {
+  background: url(../images/blog/hero-blog-mobile.png) no-repeat center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 81px 24px;
+  margin-bottom: 88px;
+}
+
 @media screen and (min-width: 768px) {
   div.hero-img {
     background: url(../images/hero-tablet.jpg) no-repeat;
@@ -132,6 +142,14 @@ div.hero-footer-img {
       center;
     background-size: cover;
   }
+
+  /* Estilos para página de blog */
+
+  .blog .hero-img {
+    background: url(../images/blog/hero-blog-tablet.png) no-repeat center;
+    background-size: cover;
+    padding: 158px 94px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -177,6 +195,14 @@ div.hero-footer-img {
     background: url(../images//contato/contact-footer-desktop.png) no-repeat
       center;
     background-size: cover;
+  }
+
+  /* Estilos para página de blog */
+
+  .blog .hero-img {
+    background: url(../images/blog/hero-blog-desktop.png) no-repeat center;
+    background-size: cover;
+    padding: 210px 0 156px 120px;
   }
 }
 
